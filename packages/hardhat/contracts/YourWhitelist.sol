@@ -11,7 +11,7 @@ contract Whitelist {
     address public owner;
     address[] public whitelist;
     
-    // Constructor
+    // Constructor that sets the owner of the contract
     constructor() {
         owner = msg.sender;
     }
